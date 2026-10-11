@@ -62,26 +62,21 @@
   <h2>Purchases</h2>
   <p>You can buy gems and a starter pack with real money. Payment is handled by Google Play: we never see your card or
   payment details. To deliver what you bought and restore it on a new phone, the game records each purchase (what was
-  bought, when, the store's order number and price) with RevenueCat, linked to your cloud save account ID.</p>
+  bought, when, the store's order number and price) with our purchase service, linked to your cloud save account ID.</p>
 
-  <h2>Services we use</h2>
+  <h2>Who processes your information</h2>
+  <p>We use service providers to run the game:</p>
   <ul>
-    <li><strong>Supabase</strong> hosts the cloud save and the accounts
-      (<a href="https://supabase.com/privacy">Supabase privacy policy</a>).</li>
-    <li><strong>Google Firebase</strong> (Analytics and Crashlytics) receives the play data and crash reports
-      described above (<a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>).</li>
-    <li><strong>Cloudflare Turnstile</strong> checks that a real person, not a bot, is creating a cloud save account or
-      asking for a restore code. It looks at technical signals from your device and browser, such as your IP address
-      and browser details, and doesn't use them for advertising
-      (<a href="https://www.cloudflare.com/turnstile-privacy-policy/">Turnstile privacy addendum</a>).</li>
-    <li><strong>Brevo</strong> delivers the email with your one-time code, if you add an email
-      (<a href="https://www.brevo.com/legal/privacypolicy/">Brevo privacy policy</a>).</li>
-    <li><strong>Google AdMob</strong> shows the optional rewarded ads described above. Google uses this information
-      under its own policies (<a href="https://policies.google.com/technologies/partner-sites">how Google uses
-      information from apps that use its services</a>, <a href="https://policies.google.com/privacy">Google privacy
-      policy</a>).</li>
-    <li><strong>RevenueCat</strong> records purchases (<a href="https://www.revenuecat.com/privacy/">RevenueCat privacy
-      policy</a>). <strong>Google Play</strong> processes the payment.</li>
+    <li><strong>Cloud hosting</strong> stores the cloud save and the accounts.</li>
+    <li><strong>Email delivery</strong> sends the email with your one-time code, if you add an email.</li>
+    <li><strong>Bot protection</strong> checks that a real person, not a bot, is creating a cloud save account or
+      asking for a restore code, using technical signals from your device such as your IP address and browser
+      details.</li>
+    <li><strong>Purchase management</strong> records purchases so they can be delivered and restored.</li>
+    <li><strong>Google</strong>: Firebase receives the play data and crash reports, AdMob shows the optional ads, and
+      Google Play processes payments. Google uses this information under its own policies
+      (<a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use
+      its services</a>, <a href="https://policies.google.com/privacy">Google privacy policy</a>).</li>
   </ul>
   <p>These providers may process data on servers outside your country. Except for Google's use of ad data described
   above, they act on our behalf and may not use your information for their own purposes.</p>
